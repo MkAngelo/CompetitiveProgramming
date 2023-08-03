@@ -1,10 +1,13 @@
 #include <iostream>
 using namespace std;
 
+string solve(){
+  uint num; cin >> num;
+  if(num%2==0 && num>2)
+    return "YES";
+  return "NO";
+}
+
 int main(){
-    int num; cin >> num;
-    if(num%2==0 && num>2)
-      cout << "YES";
-    else
-      cout << "NO";
+    cout << solve() << "\n";
 }
