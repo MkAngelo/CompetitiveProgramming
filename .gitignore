@@ -1,8 +1,11 @@
 .DS_Store
-FacebookHC/*
+HackerCup/*
 .vscode/*
 *.zip
 *.txt
 *.in
 *.out
-output/*
+/output/*
+.jar
+.venv/*
+.env/*

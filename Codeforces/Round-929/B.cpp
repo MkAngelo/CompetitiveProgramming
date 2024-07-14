@@ -2,6 +2,14 @@
 using namespace std;
 
 void run_case(){
+	int n;
+	cin >> n;
+
+	vector<int> nums(n);
+	for(int &x : nums)
+		cin >> x;
+
+	int s = 0;
 	
 }
 

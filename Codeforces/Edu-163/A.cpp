@@ -2,7 +2,19 @@
 using namespace std;
 
 void run_case(){
-	
+	string s;
+	int n;
+	cin >> n;
+	if(n == 1){
+		cout << "NO" << endl;
+		return;
+	}
+	for(int i=0; i<n; i++)
+		s += "A";
+
+	cout << "YES" << endl;
+	cout << s << endl;
+	return;
 }
 
 int main(){
