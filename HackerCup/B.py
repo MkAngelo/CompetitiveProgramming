@@ -1,6 +1,9 @@
 def run():
     r, c, a, b = map(int, input().split())
-    max_k = 0
+    if r > c:
+        return "YES"
+    else:
+        return "NO"
     
         
 if __name__ == "__main__":
